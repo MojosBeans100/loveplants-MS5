@@ -7,3 +7,8 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
+# ignore developement database
+*.sqlite3
+# ignore compiled python code we don't need in version control
+*.pyc
+__pycache__
